@@ -1,0 +1,24 @@
+{
+    "logs": [
+      {
+        "class": "File",
+        "path": "syn18822534Log.final.out"
+      },
+      {
+        "class": "File",
+        "path": "syn18822535Log.final.out"
+      },
+      {
+        "class": "File",
+        "path": "syn18901006Log.final.out"
+      },
+      {
+        "class": "File",
+        "path": "syn18901007Log.final.out"
+      },
+      {
+        "class": "File",
+        "path": "syn18901017Log.final.out"
+      }
+    ]
+}

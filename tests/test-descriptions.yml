@@ -1,0 +1,11 @@
+- job: ./testdata/mergelogs.json
+  output:
+    starlog_merged:
+      basename: Star_Log_Merged.txt
+      checksum: sha1$bd2415b9903a08f07cbf676ce3001404f7b72e58
+      class: File
+      size: 1683
+  tool: ../cwl/merge_starlog.cwl
+  doc: Test that we can merge multiple star aligner log files into a single tab-delimited text file
+  short_name: mergelogs
+
