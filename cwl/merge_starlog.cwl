@@ -18,5 +18,5 @@ outputs:
 label: merge_starlog
 requirements:
   - class: DockerRequirement
-    dockerPull: 'pyutils'
+    dockerPull: 'sagebionetworks/dockstore-tool-rnaseq-utils:0.0.0'
   - class: InlineJavascriptRequirement

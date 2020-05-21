@@ -30,7 +30,7 @@ outputs:
 label: clean_tables.cwl
 hints:
   - class: DockerRequirement
-    dockerPull: pyutils
+    dockerPull: 'sagebionetworks/dockstore-tool-rnaseq-utils:0.0.0'
 requirements:
   - class: InitialWorkDirRequirement
     listing:
