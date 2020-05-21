@@ -1,22 +1,22 @@
+$namespaces:
+  sbg: https://www.sevenbridges.com
+baseCommand:
+- starmerge.py
 class: CommandLineTool
 cwlVersion: v1.0
-$namespaces:
-  sbg: 'https://www.sevenbridges.com'
 id: merge_starlog
-baseCommand:
-  - starmerge.py
 inputs:
-  - id: logs
-    type: 'File[]'
-    inputBinding:
-      position: 1
-outputs:
-  - id: starlog_merged
-    type: File
-    outputBinding:
-      glob: '*Merged.txt'
+- id: logs
+  inputBinding:
+    position: 1
+  type: File[]
 label: merge_starlog
+outputs:
+- id: starlog_merged
+  outputBinding:
+    glob: '*Merged.txt'
+  type: File
 requirements:
-  - class: DockerRequirement
-    dockerPull: 'sagebionetworks/dockstore-tool-rnaseq-utils:0.0.0'
-  - class: InlineJavascriptRequirement
+- class: DockerRequirement
+  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.1-ab626ad
+- class: InlineJavascriptRequirement
