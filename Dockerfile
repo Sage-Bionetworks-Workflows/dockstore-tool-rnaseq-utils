@@ -8,7 +8,6 @@ LABEL about.summary="Docker image for rnaseq utils scripts"
 LABEL about.license="SPDX:MIT"
 LABEL about.tags="RNASeq"
 
-COPY VERSION /
 
 FROM python:3.6
 
