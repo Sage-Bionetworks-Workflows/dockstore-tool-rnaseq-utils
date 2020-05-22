@@ -1,4 +1,4 @@
-# dockstore-tool-template
+# dockstore-tool-rnaseq-utils
 A template project for setting up a containerized CWL Tool.
 
 # Description
