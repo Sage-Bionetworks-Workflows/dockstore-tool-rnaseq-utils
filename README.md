@@ -4,8 +4,8 @@ Versioned Docker image and CWL tools for RNA Sequencing analysis utilities
 # Description
 This repository contains the following tools:
 
-- [merge_starlog.cwl](cwl/merge_starlog.cwl): Merges STAR aligner log files from multiple samples into a single table (works for paired and single end mappings). The script can be found [here](bin/starmerge.py)
-- [clean_tables.cwl](cwl/clean_tables.cwl): For all input tables (picard metrics, gene counts, star log), this tool converts Synapse IDs to specimen IDs and removes samples that are duplicates (specimen ID and values must be identical to be removed). The script can be found [here](bin/clean_tables.py)
+- [merge_starlog.cwl](cwl/merge_starlog.cwl): Merges STAR aligner log files from multiple samples into a single table (works for paired and single end mappings). The script can be found [here](bin/starmerge.py).
+- [clean_tables.cwl](cwl/clean_tables.cwl): For all input tables (picard metrics, gene counts, star log), this tool converts Synapse IDs to specimen IDs and removes samples that are duplicates (specimen ID and values must be identical to be removed). The script can be found [here](bin/clean_tables.py).
 
 ## Dockerfile
 
