@@ -1,5 +1,5 @@
-# dockstore-tool-picardtools
-Versioned Docker image and CWL tools for Picard Tools
+# dockstore-tool-rnaseq-utils
+Versioned Docker image and CWL tools for RNA Sequencing analysis utilities
 
 # Description
 This repository contains the following tools:
