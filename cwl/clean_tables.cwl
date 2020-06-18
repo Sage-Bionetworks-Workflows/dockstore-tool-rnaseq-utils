@@ -6,7 +6,7 @@ class: CommandLineTool
 cwlVersion: v1.0
 hints:
 - class: DockerRequirement
-  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.2
+  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.3
 id: clean_tables
 inputs:
 - id: count_table
