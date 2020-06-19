@@ -1,17 +1,12 @@
 $namespaces:
   s: https://schema.org/
-s:author:
-  - class: s:Person
-    s:identifier: https://orcid.org/0000-0002-3659-9663
-    s:email: mailto:william.poehlman@sagebase.org
-    s:name: William Poehlman
 baseCommand:
 - clean_tables.py
 class: CommandLineTool
 cwlVersion: v1.0
 hints:
 - class: DockerRequirement
-  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.3
+  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.4
 id: clean_tables
 inputs:
 - id: count_table
@@ -43,3 +38,8 @@ requirements:
   - $(inputs.star_table)
   - $(inputs.metric_table)
   - $(inputs.provenance_csv)
+s:author:
+- class: s:Person
+  s:email: mailto:william.poehlman@sagebase.org
+  s:identifier: https://orcid.org/0000-0002-3659-9663
+  s:name: William Poehlman

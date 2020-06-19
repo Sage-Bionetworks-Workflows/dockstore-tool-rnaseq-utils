@@ -1,10 +1,5 @@
 $namespaces:
   s: https://schema.org/
-s:author:
-  - class: s:Person
-    s:identifier: https://orcid.org/0000-0002-3659-9663
-    s:email: mailto:william.poehlman@sagebase.org
-    s:name: William Poehlman
 baseCommand:
 - starmerge.py
 class: CommandLineTool
@@ -23,5 +18,10 @@ outputs:
   type: File
 requirements:
 - class: DockerRequirement
-  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.3
+  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.4
 - class: InlineJavascriptRequirement
+s:author:
+- class: s:Person
+  s:email: mailto:william.poehlman@sagebase.org
+  s:identifier: https://orcid.org/0000-0002-3659-9663
+  s:name: William Poehlman
