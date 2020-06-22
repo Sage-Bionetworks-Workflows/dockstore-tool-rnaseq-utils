@@ -18,7 +18,7 @@ outputs:
   type: File
 requirements:
 - class: DockerRequirement
-  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:0.0.4
+  dockerPull: sagebionetworks/dockstore-tool-rnaseq-utils:1.0.0
 - class: InlineJavascriptRequirement
 s:author:
 - class: s:Person
